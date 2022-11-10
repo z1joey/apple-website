@@ -49,6 +49,7 @@ const Navbar = () => {
           <li>Support</li>
         </ul>
       </nav>
+
       <Link to="/" className="nav-search">
         <i class="fa fa-search"></i>
       </Link>

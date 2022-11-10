@@ -1,0 +1,10 @@
+.hero-container {
+  background-image: url("/public/images/iPad.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 340px 410px;
+  height: 80vh;
+  width: 100vw;
+}
