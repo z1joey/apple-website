@@ -1,0 +1,31 @@
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer-items h5 {
+  color: black;
+  white-space: none;
+}
+
+.footer-items a {
+  color: gray;
+  text-decoration: none;
+  margin: 4px 0px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.footer-container {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  white-space: none;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
