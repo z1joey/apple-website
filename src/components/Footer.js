@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -7,84 +6,69 @@ const Footer = () => {
     <>
       <div className="footer-container">
         <div className="footer-section">
-          <div className="footer-header">
-            <h5>Shop and Learn</h5>
-            <p>+</p>
-          </div>
-          <Link>Store</Link>
-          <Link>Mac</Link>
-          <Link>iPad</Link>
-          <Link>iPhone</Link>
-          <Link>Watch</Link>
-          <Link>AirPods</Link>
-          <Link>TV & Home</Link>
-          <Link>AirTag</Link>
-          <Link>Accessories</Link>
-          <Link>Gift Cards</Link>
+          <h5>Shop and Learn</h5>
+          <a href="https://www.google.com/">Store</a>
+          <a href="https://www.google.com/">Mac</a>
+          <a href="https://www.google.com/">iPad</a>
+          <a href="https://www.google.com/">iPhone</a>
+          <a href="https://www.google.com/">Watch</a>
+          <a href="https://www.google.com/">AirPods</a>
+          <a href="https://www.google.com/">TV & Home</a>
+          <a href="https://www.google.com/">AirTag</a>
+          <a href="https://www.google.com/">Accessories</a>
+          <a href="https://www.google.com/">Gift Cards</a>
           <hr class="divider" />
         </div>
         <div className="footer-section">
-          <div className="footer-header">
-            <h5>Services</h5>
-            <p>+</p>
-          </div>
-          <Link>Apple Music</Link>
-          <Link>Apple TV+</Link>
-          <Link>Apple Fitness+</Link>
-          <Link>Apple News+</Link>
-          <Link>Apple Arcade</Link>
-          <Link>iCloud</Link>
-          <Link>Apple iCloud</Link>
-          <Link>Apple One</Link>
-          <Link>Apple Card</Link>
-          <Link>Apple Books</Link>
-          <Link>Apple Podcasts</Link>
-          <Link>Apple Store</Link>
+          <h5>Services</h5>
+          <a href="https://www.google.com/">Apple Music</a>
+          <a href="https://www.google.com/">Apple TV+</a>
+          <a href="https://www.google.com/">Apple Fitness+</a>
+          <a href="https://www.google.com/">Apple News+</a>
+          <a href="https://www.google.com/">Apple Arcade</a>
+          <a href="https://www.google.com/">iCloud</a>
+          <a href="https://www.google.com/">Apple iCloud</a>
+          <a href="https://www.google.com/">Apple One</a>
+          <a href="https://www.google.com/">Apple Card</a>
+          <a href="https://www.google.com/">Apple Books</a>
+          <a href="https://www.google.com/">Apple Podcasts</a>
+          <a href="https://www.google.com/">Apple Store</a>
           <hr class="divider" />
         </div>
         <div className="footer-section">
-          <div className="footer-header">
-            <h5>Apple Store</h5>
-            <p>+</p>
-          </div>
-          <Link>Find a Store</Link>
-          <Link>Genius Bar</Link>
-          <Link>Today at Apple</Link>
-          <Link>Apple Camp</Link>
-          <Link>Apple Store App</Link>
-          <Link>Refurbished and Clearance</Link>
-          <Link>Financing</Link>
-          <Link>Apple Trade In</Link>
-          <Link>Order Status</Link>
-          <Link>Shopping Help</Link>
+          <h5>Apple Store</h5>
+          <a href="https://www.google.com/">Find a Store</a>
+          <a href="https://www.google.com/">Genius Bar</a>
+          <a href="https://www.google.com/">Today at Apple</a>
+          <a href="https://www.google.com/">Apple Camp</a>
+          <a href="https://www.google.com/">Apple Store App</a>
+          <a href="https://www.google.com/">Refurbished and Clearance</a>
+          <a href="https://www.google.com/">Financing</a>
+          <a href="https://www.google.com/">Apple Trade In</a>
+          <a href="https://www.google.com/">Order Status</a>
+          <a href="https://www.google.com/">Shopping Help</a>
           <hr class="divider" />
         </div>
         <div className="footer-section">
-          <div className="footer-header">
-            <h5>Apple Values</h5>
-            <p>+</p>
-          </div>
-          <Link>Accessibility</Link>
-          <Link>Education</Link>
-          <Link>Environment</Link>
-          <Link>Inclusion and Diversity</Link>
-          <Link>Privacy</Link>
-          <Link>Racial Equity and Justice</Link>
-          <Link>Supplier Responsibility</Link>
+          <h5>Apple Values</h5>
+          <a href="https://www.google.com/">Accessibility</a>
+          <a href="https://www.google.com/">Education</a>
+          <a href="https://www.google.com/">Environment</a>
+          <a href="https://www.google.com/">Inclusion and Diversity</a>
+          <a href="https://www.google.com/">Privacy</a>
+          <a href="https://www.google.com/">Racial Equity and Justice</a>
+          <a href="https://www.google.com/">Supplier Responsibility</a>
           <hr class="divider" />
         </div>
         <div className="footer-section">
-          <div className="footer-header">
-            <h5>About Apple</h5>
-            <p>+</p>
-          </div>
-          <Link>newsroom</Link>
-          <Link>Apple Leadership</Link>
-          <Link>Career Opportunities</Link>
-          <Link>Investors</Link>
-          <Link>Ethics & Compliance</Link>
-          <Link>Events</Link>
-          <Link>Contact Apple</Link>
+          <h5>About Apple</h5>
+          <a href="https://www.google.com/">newsroom</a>
+          <a href="https://www.google.com/">Apple Leadership</a>
+          <a href="https://www.google.com/">Career Opportunities</a>
+          <a href="https://www.google.com/">Investors</a>
+          <a href="https://www.google.com/">Ethics & Compliance</a>
+          <a href="https://www.google.com/">Events</a>
+          <a href="https://www.google.com/">Contact Apple</a>
         </div>
       </div>
       <p className="copyright">
