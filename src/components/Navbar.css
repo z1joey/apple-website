@@ -7,6 +7,19 @@ nav {
   height: 44px;
 }
 
+button {
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  color: gray;
+}
+
 .nav-menu {
   display: flex;
   flex-direction: column;
@@ -70,7 +83,7 @@ nav {
     display: none;
   }
 
-  .search-icon {
+  #search {
     display: none;
   }
 

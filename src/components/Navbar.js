@@ -3,6 +3,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
+function showAlert(desc) {
+  alert("You just tapped " + desc);
+}
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
 
@@ -11,10 +15,11 @@ const Navbar = () => {
 
   return (
     <nav>
-      {/* Menu Logo */}
+      {/* Side Menu Icon */}
       <div className="nav-icon menu-icon" onClick={handleClick}>
         <i className={click ? "fa fa-close" : "fa fa-bars"} />
       </div>
+
       {/* Side Menu */}
       <div className={click ? "nav-menu active" : "nav-menu"}>
         <Link to="/store" className="nav-menu-item" onClick={closeMobileMenu}>
@@ -95,12 +100,12 @@ const Navbar = () => {
       </Link>
 
       {/* Menu Buttons */}
-      <Link to="/" className="nav-icon search-icon">
+      <button id="search" onClick={() => showAlert("search")}>
         <i class="fa fa-search"></i>
-      </Link>
-      <Link to="/" className="nav-icon">
+      </button>
+      <button onClick={() => showAlert("cart")}>
         <i className="fa fa-shopping-cart" />
-      </Link>
+      </button>
     </nav>
   );
 };
