@@ -15,7 +15,7 @@ const Page = (props) => {
 
   useEffect(() => {
     const getData = async () => {
-      await timeout(2000);
+      await timeout(1000);
 
       try {
         const response = await fetch(
