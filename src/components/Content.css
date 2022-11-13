@@ -1,5 +1,5 @@
-.hero-container {
-  height: 80vh;
+.content-container {
+  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -7,44 +7,44 @@
   cursor: pointer;
 }
 
-.hero-image {
+.content-image {
   height: 400px;
   width: 400px;
   z-index: -1;
 }
 
-.hero-content {
+.content {
   display: flex;
   align-items: center;
 }
 
-.hero-titles {
+.content-titles {
   white-space: nowrap;
 }
 
-.hero-titles h1 {
+.content-titles h1 {
   font-size: 60px;
   text-align: center;
   padding-bottom: 20px;
 }
 
-.hero-titles p {
+.content-titles p {
   font-size: 20px;
   padding-bottom: 20px;
   text-align: center;
 }
 
-.hero-links {
+.content-links {
   justify-content: space-evenly;
   display: flex;
 }
 
-.hero-links a {
+.content-links a {
   text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
-  .hero-content {
+  .content {
     flex-direction: column;
   }
 }

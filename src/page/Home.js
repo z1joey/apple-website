@@ -1,15 +1,15 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
+import Content from "../components/Content";
 
 const Home = () => {
   return (
     <div>
-      <HeroSection
+      <Content
         img="/images/iPad.jpg"
         title="iPad"
         subtitle="Lovable. Drawable. Magical"
       />
-      <HeroSection
+      <Content
         img="/images/iPhone.jpg"
         title="iPhone 14"
         subtitle="Bigger and Bigger"
