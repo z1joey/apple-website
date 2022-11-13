@@ -101,7 +101,7 @@ const AnimatedRoutes = () => {
           exact
           element={
             <Page
-              title="Only On Applce"
+              title="Only On Apple"
               initial={{ x: -window.innerWidth }}
               animate={{ x: 0 }}
               exit={{ x: window.innerWidth, transition: { duration: 0.5 } }}
